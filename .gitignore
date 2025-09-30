@@ -1,0 +1,53 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+
+# Node.js
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+frontend/package-lock.json
+frontend/yarn.lock
+
+
+# React / frontend
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/*.env.local
+frontend/*.env.development
+frontend/*.env.test
+frontend/*.env.production
+frontend/venv/
+
+
+# Backend
+
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-debug.log
+backend/yarn-error.log
+backend/yarn.lock
+backend/venv/
+backend/__pycache__/
+
+# MacOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+coverage/
